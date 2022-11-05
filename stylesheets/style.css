@@ -10,7 +10,7 @@ body{
 }
 
 #first_unit{
-    width: 25em;
+    width: 23em;
     height:215px;
     overflow: hidden;
     border-bottom: 0;
@@ -98,12 +98,37 @@ header{
     margin: 0;
 }
 
-@media screen and (max-width:320px) {
-    #user_avatar{
-        width: 30px;
+@media screen and (max-width:474px) {
+    #first_unit{
+        width: 9em;
     }
+    #user_avatar{
+        padding:3px;
+        width: 50px;
+    }
+    #header_info{
+        margin-left:11px;
+    }
+    #full_name{
+        font-size: smaller;
+    }
+    #specialization{
+        font-size:medium;
+    }
+    #city{
+        font-size: medium;
+    }
+    
+    a.github{
+        width: 191px;
+    }
+
+
  }
- @media screen and (max-width:700px) {
+ @media screen and (min-width:475px) and (max-width:700px) {
+    #first_unit{
+        width: 16em;
+    }
     #user_avatar{
         width: 85px;
     }
