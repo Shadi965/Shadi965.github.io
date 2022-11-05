@@ -119,6 +119,10 @@ header{
         font-size: medium;
     }
     
+    a.button{
+        width: 194px;
+    }
+
     a.github{
         width: 191px;
     }
