@@ -100,7 +100,7 @@ header{
 
 @media screen and (max-width:474px) {
     #first_unit{
-        width: 9em;
+        width: 10em;
     }
     #user_avatar{
         padding:3px;
